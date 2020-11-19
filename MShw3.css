@@ -1,0 +1,52 @@
+body{
+    height: 2000px;
+    background-color: #efebdd;
+}
+
+h1{
+    background-color: #4c040a;
+    color: #eee4e5;
+    font-family: arial;
+    font-size: 80px;
+    text-align: center;
+}
+
+canvas{
+    background-color: white;
+}
+
+#First{
+    border: 2px solid black;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+#Second{
+    border: 2px solid black;
+    position: absolute;
+    top: 750px;
+    left: 800px;
+}
+div.first{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+div.second{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    left: 300px;
+}
+p{
+    font-family: arial;
+    font-size: 50px;
+}
+
+
+
+
