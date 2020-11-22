@@ -9,15 +9,31 @@
     
 <body> 
 
-        <h1>Canvas Knowledge Base</h1> 
-    <canvas id="First"
-            width="500px"
-            height="500px">
- 
+    <h1>Canvas Knowledge Base</h1> 
+    <canvas 
+        id="First"
+        width="500px"
+        height="500px"
+    >
     </canvas>
+    <canvas 
+        id="Second"
+        width="500px"
+        height="500px"
+    >
+    </canvas>
+    <div class="first">
+        <p> I can create something like this))) </p>
+         
+     </div>      
+     <div class="second">
+         <p>And also something like this and even more))) </p>
+         
+     </div>
     <script>
-        var canvas=document.getElementById('First')
-        var ctx=canvas.getContext('2d')
+        let canvas = document.getElementById('First')
+        let ctx = canvas.getContext('2d')
+
     //lines
         ctx.beginPath()
         ctx.moveTo(30, 50)
@@ -66,110 +82,93 @@
         
         ctx.fillStyle='#7d8eb6'
         ctx.fillRect(385, 150, 28, 269)
-        
-      </script>
-    
-    <canvas id="Second"
-            width="500px"
-            height="500px">
-        
-    </canvas>
-        
-    <script>
-        var canvas=document.getElementById('Second')
-        var ctx=canvas.getContext('2d')
+
+        let canvas2 = document.getElementById('Second')
+        let ctx2 = canvas2.getContext('2d')
         
     //lines
-        ctx.beginPath()
-        ctx.moveTo(30, 50)
-        ctx.lineTo(30, 400)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(30, 50)
+        ctx2.lineTo(30, 400)
+        ctx2.closePath()
+        ctx2.stroke()
    
-        ctx.beginPath()
-        ctx.moveTo(30, 400)
-        ctx.lineTo(460, 400)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(30, 400)
+        ctx2.lineTo(460, 400)
+        ctx2.closePath()
+        ctx2.stroke()
         
     //triangles
         
-        ctx.beginPath()
-        ctx.moveTo(20, 50)
-        ctx.lineTo(40, 50)
-        ctx.lineTo(30, 35)
-        ctx.closePath()
-        ctx.fillStyle='black'
-        ctx.fill()
+        ctx2.beginPath()
+        ctx2.moveTo(20, 50)
+        ctx2.lineTo(40, 50)
+        ctx2.lineTo(30, 35)
+        ctx2.closePath()
+        ctx2.fillStyle='black'
+        ctx2.fill()
         
-        ctx.beginPath()
-        ctx.moveTo(460, 390)
-        ctx.lineTo(460, 410)
-        ctx.lineTo(475, 400)
-        ctx.closePath()
-        ctx.fillStyle='black'
-        ctx.fill()
+        ctx2.beginPath()
+        ctx2.moveTo(460, 390)
+        ctx2.lineTo(460, 410)
+        ctx2.lineTo(475, 400)
+        ctx2.closePath()
+        ctx2.fillStyle='black'
+        ctx2.fill()
         
     //figure
-        ctx.beginPath()
-        ctx.moveTo(50, 350)
-        ctx.lineTo(110, 270)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(50, 350)
+        ctx2.lineTo(110, 270)
+        ctx2.closePath()
+        ctx2.stroke()
         
-        ctx.fillStyle='black'
-        ctx.fillRect(110, 260, 10, 10)
+        ctx2.fillStyle='black'
+        ctx2.fillRect(110, 260, 10, 10)
         
-        ctx.beginPath()
-        ctx.moveTo(120, 262)
-        ctx.lineTo(190, 220)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(120, 262)
+        ctx2.lineTo(190, 220)
+        ctx2.closePath()
+        ctx2.stroke()
         
-        ctx.fillStyle='black'
-        ctx.fillRect(190, 212, 10, 10)
+        ctx2.fillStyle='black'
+        ctx2.fillRect(190, 212, 10, 10)
         
-        ctx.beginPath()
-        ctx.moveTo(200, 216)
-        ctx.lineTo(250, 200)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(200, 216)
+        ctx2.lineTo(250, 200)
+        ctx2.closePath()
+        ctx2.stroke()
         
-        ctx.fillStyle='black'
-        ctx.fillRect(250, 194, 10, 10)
+        ctx2.fillStyle='black'
+        ctx2.fillRect(250, 194, 10, 10)
         
-        ctx.beginPath()
-        ctx.moveTo(260, 204)
-        ctx.lineTo(330, 260)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(260, 204)
+        ctx2.lineTo(330, 260)
+        ctx2.closePath()
+        ctx2.stroke()
         
-        ctx.fillStyle='black'
-        ctx.fillRect(330, 260, 10, 10)
+        ctx2.fillStyle='black'
+        ctx2.fillRect(330, 260, 10, 10)
         
-        ctx.beginPath()
-        ctx.moveTo(340, 261)
-        ctx.lineTo(410, 220)
-        ctx.closePath()
-        ctx.stroke()
+        ctx2.beginPath()
+        ctx2.moveTo(340, 261)
+        ctx2.lineTo(410, 220)
+        ctx2.closePath()
+        ctx2.stroke()
         
-        ctx.fillStyle='black'
-        ctx.fillRect(410, 212, 10, 10)
+        ctx2.fillStyle='black'
+        ctx2.fillRect(410, 212, 10, 10)
         
         
         
         
     </script>
         
-<div class="first">
-   <p> I can create something like this))) </p>
-    
-</div>      
 
-<div class="second">
-    <p>And also something like this and even more))) </p>
-    
-</div>
 
     
 </body>
